@@ -1,3 +1,11 @@
+
+### Tictactoe allows the user to play a two player game of tictactoe on the command line. Moves are entered using
+#   grid coordinates which are displayed (a1, b2, etc). A tie triggers a new game, and "q" for any move quits.
+#   future improvements may include a one player version against a computer, possible with varying difficulty levels
+#   i.e. always blocking an impending 3 in a row, or, even stronger, the computer plays perfectly.
+#   What is the simplest algorithm allowing perfect computer play?
+
+
 class Tictactoe(object):
 
 	from sys import exit
